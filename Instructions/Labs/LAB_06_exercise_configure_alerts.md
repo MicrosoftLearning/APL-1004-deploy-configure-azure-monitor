@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise - Configure alerts
+    title: 'Exercise - Configure alerts'
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
 

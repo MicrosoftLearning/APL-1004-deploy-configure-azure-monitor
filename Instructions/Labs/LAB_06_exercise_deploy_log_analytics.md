@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise - Configure monitoring for compute services'
+    title: 'Exercise - Deploy Log Analytics'
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
 

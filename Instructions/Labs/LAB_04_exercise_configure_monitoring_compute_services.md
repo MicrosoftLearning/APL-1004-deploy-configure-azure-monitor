@@ -4,24 +4,16 @@ lab:
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
 
-This guided project consists of the four exercises:
+## Skilling tasks
 
-- Exercise 1: Deploy Log Analytics
-- Exercise 2: Monitor web apps
-- **Exercise 3: Configure monitoring for compute services**
-- Exercise 4: Configure alerts
-
-In Exercise 3, you configure monitoring for compute services and perform tasks related to integrating IaaS virtual machines with Azure Monitor.
-You create a data collection endpoint and a data collection rule to collect Windows Event logs. You then add an existing IIS log collection to the data collection rule. Finally, you configure Network Connection Monitor for a Linux IaaS virtual machine.
-
-- Task 1: Create a data collection endpoint
-- Task 2: Create a data collection rule
-- Task 3: Add an IIS log collection to an existing data collection rule
-- Task 4: Configure Network Connection Monitor for a Linux IaaS virtual machine
+- Create a data collection endpoint
+- Create a data collection rule
+- Add an IIS log collection to an existing data collection rule
+- Configure Network Connection Monitor for a Linux IaaS virtual machine
 
 ## Exercise instructions
 
-**Task 1: Create a data collection endpoint**
+### Create a data collection endpoint
 
 1. In the Azure Portal Search Bar, enter Monitor and select Monitor from the list of results.
 1. In the Monitor page, under Settings, choose Data Collection Endpoints.
@@ -37,8 +29,7 @@ You create a data collection endpoint and a data collection rule to collect Wind
 
 5. Review the settings and choose Create.
 
-
-**Task 2: Create a data collection rule**
+### Create a data collection rule
 
 1. In the Azure Portal Search Bar, enter **Monitor** and select **Monitor** from the list of results.
 1. In the **Monitor** page, under **Settings**, choose **Data Collection Rules**.
@@ -72,7 +63,7 @@ You create a data collection endpoint and a data collection rule to collect Wind
 1. Choose **Review + Create** and then choose **Create**.
 
 
-**Task 3: Add an IIS log collection to an existing data collection rule**
+### Add an IIS log collection to an existing data collection rule
 
 1. In the Azure Portal Search Bar, enter **Monitor** and select **Monitor** from the list of results.
 1. In the **Monitor** page, under **Settings**, choose **Data Collection Rules**.
@@ -91,7 +82,7 @@ You create a data collection endpoint and a data collection rule to collect Wind
 
 9. Choose **Add data source**.
 
-**Task 4: Configure Network Connection Monitor for a Linux IaaS virtual machine**
+### Configure Network Connection Monitor for a Linux IaaS virtual machine
 
 1. In the Azure Portal Search Bar, enter **Network Watcher** and select **Network Watcher** from the list of results.
 1. Under **Monitoring**, choose **Connection Monitor**.

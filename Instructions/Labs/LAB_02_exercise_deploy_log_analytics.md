@@ -4,22 +4,15 @@ lab:
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
 
-This guided project consists of the four exercises:
+## Skilling tasks
 
-- **Exercise 1: Deploy Log Analytics**
-- Exercise 2: Monitor web apps
-- Exercise 3: Configure monitoring for compute services
-- Exercise 4: Configure alerts
-
-In Exercise 1, you deploy and configure a Log Analytics workspace
-
-- Task 1: Create a Log Analytics workspace
-- Task 2: Configure Log Analytics data retention and archive policies
-- Task 3: Enable access to a Log Analytics workspace
+- Create a Log Analytics workspace
+- Configure Log Analytics data retention and archive policies
+- Enable access to a Log Analytics workspace
 
 ## Exercise instructions
 
-**Task 1: Create a Log Analytics workspace**
+### Create a Log Analytics workspace
 
 - In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
 - On the **Log Analytics workspaces** page, choose **Create**.
@@ -34,7 +27,7 @@ In Exercise 1, you deploy and configure a Log Analytics workspace
 
 4. Review the information and choose **Create**.
 
-**Task 2: Configure Log Analytics data retention and archive policies**
+### Configure Log Analytics data retention and archive policies
 
 1. In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
 1. On the **Log Analytics workspaces** page, choose **LogAnalytics1**.
@@ -43,7 +36,7 @@ In Exercise 1, you deploy and configure a Log Analytics workspace
 1. On the **Log Analytics workspace** page for LogAnalytics1, choose **Usage and estimated costs**.
 1. Select **Daily cap**. Choose **On**. Set the daily cap to 10 GB and choose **OK**.
 
-**Task 3: Enable access to a Log Analytics workspace**
+### Enable access to a Log Analytics workspace
 
 1. In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
 1. On the **Log Analytics workspaces** page, choose **LogAnalytics1**.

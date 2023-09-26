@@ -14,9 +14,9 @@ lab:
 
 ### Create a Log Analytics workspace
 
-- In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
-- On the **Log Analytics workspaces** page, choose **Create**.
-- On the **Basics** page of the Create Log Analytics workspace wizard, provide the following information and choose **Review + Create**.
+1. In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
+1. On the **Log Analytics workspaces** page, choose **Create**.
+1. On the **Basics** page of the Create Log Analytics workspace wizard, provide the following information and choose **Review + Create**.
 
     | Property | Value    |
     |:---------|:---------|

@@ -6,8 +6,8 @@ lab:
 
 You must first complete the following steps to prepare your Azure environment before you begin the lab exercises:
 
-![NOTE]
-To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
+> ![NOTE]
+> To complete this lab you will need an [Azure subscription](https://azure.microsoft.com/free/).
 
 ## Prepare your bring-your-own-subscription (BYOS)
 

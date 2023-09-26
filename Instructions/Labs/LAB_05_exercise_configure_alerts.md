@@ -4,21 +4,14 @@ lab:
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
 
-This guided project consists of the four exercises:
+## Skilling tasks
 
-- Exercise 1: Deploy Log Analytics
-- Exercise 2: Monitor web apps
-- Exercise 3: Configure monitoring for compute services
-- **Exercise 4: Configure alerts**
-
-In Exercise 4, you configure two specific alerts: an action group to send an email, and an alert for virtual machine CPU utilization.
-
-- Task 1: Create an action group to send an email
-- Task 2: Create an alert for virtual machine CPU utilization
+- Create an action group to send an email
+- Create an alert for virtual machine CPU utilization
 
 ## Exercise instructions
 
-**Task 1: Create an action group to send an email**
+### Create an action group to send an email
 
 1. In the Azure Portal Search Bar, enter **Monitor** and select **Monitor** from the list of results.
 1. Select **Alerts** in the navigation menu.
@@ -39,7 +32,7 @@ In Exercise 4, you configure two specific alerts: an action group to send an ema
 1. Choose **Review and Create**. Choose **Create**.
 
 
-**Task 2: Create an alert for virtual machine CPU utilization**
+### Create an alert for virtual machine CPU utilization
 
 1. In the Azure Portal Search Bar, enter **rg-alpha** and select **rg-alpha** from the list of results.
 1. From the list of items in the resource group, choose **Linux-VM2**.

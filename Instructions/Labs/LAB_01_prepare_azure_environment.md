@@ -19,7 +19,7 @@ This set of lab exercises assumes that you have global administrator permissions
 
 In this exercise, you create an Entra ID security group.
 
-1. In the Azure Portal Search Bar, enter Azure Active Directory (or Entra ID) and Azure Active Directory (or Entra ID) from the list of results.
+1. In the Azure Portal Search Bar, enter Azure Active Directory (or Entra ID)  from the list of results.
 1. On the **Default Directory** page, select **Groups**.
 1. On the **Groups** page, choose **New Group**.
 1. On the **New Group** page, provide the values in the following table and choose **Create**.
@@ -28,8 +28,8 @@ In this exercise, you create an Entra ID security group.
     | Property | Value    |
     |:---------|:---------|
     | Group type  | Security   |
-    | Group name  | AppLogExaminers   |
-    | Group description  | AppLogExaminers   |
+    | Group name  | App Log Examiners   |
+    | Group description  | App Log Examiners   |
 
 
 ## Deploy and configure WS-VM1
@@ -71,6 +71,7 @@ In this exercise, you deploy and configure a Windows Server virtual machine.
     | Source  | Any  |
     | Source port ranges	| *   |
     | Destination  | Any   |
+    | Service   | HTTP  |
     | Action	| Allow  |
     | Priority  | 310   |
     | Name  | AllowAnyHTTPInbound  |
@@ -85,9 +86,9 @@ In this exercise, you deploy and configure a Windows Server virtual machine.
 	Install-WindowsFeature Web-Server  -IncludeAllSubFeature 
 -IncludeManagementTools 
 1. When the installation completes run the following command to change to the web server root directory.
-	Cd c:\inetpub\wwwroot\
+	cd c:\inetpub\wwwroot\
 1. Run the following command.
-	Wget https://raw.githubusercontent.com/Azure-Samples/html-docs-hello-world/master/index.html-OutFile index.html
+	Wget https://raw.githubusercontent.com/Azure-Samples/html-docs-hello-world/master/index.html -OutFile index.html
 
 
 ## Deploy and configure LX-VM2
@@ -142,7 +143,7 @@ https://github.com/Azure/azure-quickstart-templates/tree/master/quickstarts/micr
     | Sql Administrator Login Password	| [Select a unique secure password] P@ssw0rdP@ssw0rd   |
 
 8. Review the information presented and select **Create**.
-1. After the deployment completes, choose c**Go to resource group**.
+1. After the deployment completes, choose **Go to resource group**.
 
 ## Deploy a Linux web app
 

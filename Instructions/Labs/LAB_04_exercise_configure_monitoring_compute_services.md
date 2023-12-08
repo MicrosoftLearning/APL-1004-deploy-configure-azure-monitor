@@ -15,9 +15,9 @@ lab:
 
 ### Create a data collection endpoint
 
-1. In the Azure Portal Search Bar, enter Monitor and select Monitor from the list of results.
-1. In the Monitor page, under Settings, choose Data Collection Endpoints.
-1. On the Data Collection Endpoints page, choose Create.
+1. In the Azure Portal Search Bar, enter **Monitor** and select **Monitor** from the list of results.
+1. In the **Monitor** page, under **Settings**, choose **Data Collection Endpoints**.
+1. On the **Data Collection Endpoints** page, choose **Create**.
 1. On the Create Data Collection Endpoint page, provide the following settings and then choose Review + Create.
 
     | Property | Value    |
@@ -27,7 +27,7 @@ lab:
     | Resource Group	| rg-alpha  |
     | Region	| East US  |
 
-5. Review the settings and choose Create.
+5. Review the settings and choose **Create**.
 
 ### Create a data collection rule
 
@@ -49,7 +49,7 @@ lab:
 1. On the **Select a scope** page, enable the **WS-VM1** checkbox and choose **Apply**.
 1. On the **Create Data Collection Rule** page, choose **Next**.
 1. On the **Collect and Deliver** page, choose **Add data source**.
-1. On the **Add data source** page, select **Windows Event Logs**. In the Application category enable the **Critical** and **Error** categories. In the **Security** category, choose the **Audit Failure** category. In the **System** category, enable the **Critical** and **Error** categories. 
+1. On the **Add data source** page, select **Windows Event Logs**. In the **Application** category enable the **Critical** and **Error** categories. In the **Security** category, choose the **Audit Failure** category. In the **System** category, enable the **Critical** and **Error** categories. 
 1. Choose **Next**.
 1. On the **Destination** page, configure the following settings:
 
@@ -87,7 +87,7 @@ lab:
 1. In the Azure Portal Search Bar, enter **Network Watcher** and select **Network Watcher** from the list of results.
 1. Under **Monitoring**, choose **Connection Monitor**.
 1. On the **Connection Monitor** page, choose **Create**.
-1. On the **Basics** page of the Create Connection Monitor wizard, provide the following information and choose **Next**.
+1. On the **Basics** page of the **Create Connection Monitor** wizard, provide the following information and choose **Next**.
 
     | Property | Value    |
     |:---------|:---------|

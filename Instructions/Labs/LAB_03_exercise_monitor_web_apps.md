@@ -31,14 +31,6 @@ lab:
 1. Under **Instrument your application**, choose **.NET Core** and then set the Snapshot Debugger setting to **Off**. Choose **Apply**.
 1. On the **Apply Monitoring Settings** dialog box, choose **Yes**.
 
-    | Property | Value    |
-    |:---------|:---------|
-    | Diagnostic setting name  | httplogs   |
-    | Categories	| HTTP logs  |
-    | Destination details	| Send to Log Analytics workspace  |
-    | Subscription	| Your subscription  |
-    | Log Analytics workspace 	| LogAnalytics1   |
-
 ### Configure web app HTTP logs to be written to a Log Analytics workspace
 
 1. In the Azure Portal Search Bar, enter **rg-alpha** and select **rg-alpha** from the list of results.
